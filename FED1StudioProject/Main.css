@@ -1,0 +1,11 @@
+﻿header {
+    color:maroon; font-size:20px; font-family:'Times New Roman', Times, serif; 
+}
+body {
+    background-color:bisque;
+}
+
+p{ color:darkblue; font-family:'Times New Roman', Times, serif; font-size:18px;
+
+}
+/*!important is the jedi mind trick for CSS, only to be used if a particular class selector should use a certain set of styling NO MATTER WHAT*/
