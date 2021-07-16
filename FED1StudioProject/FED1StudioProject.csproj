@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="classes.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\adam-jaime-dmkmrNptMpw-unsplash %281%29.jpg" />
+    <Content Include="images\patrick-tomasso-GXXYkSwndP4-unsplash.jpg" />
     <Content Include="Main.css" />
     <Content Include="stylesheets\IndexStyle.css" />
     <Content Include="team.html" />
@@ -88,7 +91,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

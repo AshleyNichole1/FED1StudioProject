@@ -1,11 +1,45 @@
-﻿header {
-    color:maroon; font-size:20px; font-family:'Times New Roman', Times, serif; 
+﻿@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+/*
+    font-family: 'Festive', cursive;
+
+*/
+
+header {
+    color: maroon;
+    font-size: 20px;
+   
 }
+
 body {
-    background-color:bisque;
+    background-color: bisque;
+    font-family: 'Times New Roman';
+    font-style: oblique;
 }
 
-p{ color:darkblue; font-family:'Times New Roman', Times, serif; font-size:18px;
-
+p {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
+
+#colorGradient1 {
+    background-image: linear-gradient(90deg, red, yellow);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .6em;
+        display: ruby-text;
+        color: #610300;
+        text-decoration: none;
+    }
+
+/*nav ul li.logoColor {
+    background-color: #E34A44;
+   
+}*/
+
 /*!important is the jedi mind trick for CSS, only to be used if a particular class selector should use a certain set of styling NO MATTER WHAT*/
