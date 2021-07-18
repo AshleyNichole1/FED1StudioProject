@@ -1,41 +1,63 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
-/*
-    font-family: 'Festive', cursive;
+﻿
+/*header {
+    font-style: italic;
+}
 
-*/
+body {
+    font-style: oblique;
+}*/
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+    font-family: 'Festive', cursive;*/
+
+
 
 header {
-    color: maroon;
+    /*color: maroon;*/
     font-size: 20px;
    
 }
 
 body {
-    background-color: bisque;
+    /*background-color: #420B0B;*/
     font-family: 'Times New Roman';
     font-style: oblique;
 }
 
-p {
-    color: darkblue;
-    font-family: 'Times New Roman', Times, serif;
+/*p {
+    /*color: darkblue;*/
+    /*font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-}
+}*/
 
-#colorGradient1 {
+/*#colorGradient1 {
     background-image: linear-gradient(90deg, red, yellow);
-}
+}*/
 
 nav ul li {
     display: inline-block;
+    
 }
+
 
     nav ul li a {
         padding: .6em;
-        display: ruby-text;
-        color: #610300;
+        /*display: ruby-text;*/
+        /*color: #610300;*/
         text-decoration: none;
     }
+
+#teamleftColumn{
+    margin-right:25%;
+    border-right:1px dashed teal;
+}
 
 /*nav ul li.logoColor {
     background-color: #E34A44;
@@ -43,3 +65,31 @@ nav ul li {
 }*/
 
 /*!important is the jedi mind trick for CSS, only to be used if a particular class selector should use a certain set of styling NO MATTER WHAT*/
+div.GalleryItem {
+    margin: 5px;
+    /*border: 5px solid #CCC;*/
+    display: inline-flex;
+    width: 350px;
+}
+
+/*div.GalleryItem:hover {
+    border: 1px solid maroon;
+
+    }*/
+
+div.GalleryItem img{
+    width:100%;
+    height: auto;
+}
+
+/*div.GalleryItem a:hover{
+    background-color: marron;
+
+}*/
+
+#ImageGallery{
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+  
+}

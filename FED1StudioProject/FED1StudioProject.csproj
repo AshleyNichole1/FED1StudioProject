@@ -69,13 +69,21 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="favicon.ico" />
-    <Content Include="images\adam-jaime-dmkmrNptMpw-unsplash %281%29.jpg" />
-    <Content Include="images\patrick-tomasso-GXXYkSwndP4-unsplash.jpg" />
+    <Content Include="images\bibek-thakuri-yOTVFgem9gU-unsplash.jpg" />
+    <Content Include="images\chino-rocha-X52UzrosyDs-unsplash.jpg" />
+    <Content Include="images\christian-buehner-DItYlc26zVI-unsplash.jpg" />
+    <Content Include="images\michael-dam-mEZ3PoFGs_k-unsplash %282%29.jpg" />
+    <Content Include="images\motunrayo-babatunde-CMYyo5ce-Ac-unsplash.jpg" />
+    <Content Include="images\proriat-hospitality-b2pDjDp7VRM-unsplash.jpg" />
+    <Content Include="images\thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg" />
+    <Content Include="images\yogendra-singh-HrpYHchKb5Y-unsplash.jpg" />
     <Content Include="Main.css" />
-    <Content Include="stylesheets\IndexStyle.css" />
+    <Content Include="Main\About.html" />
+    <Content Include="Main\Extras.html" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
+    <Content Include="stylesheets\Backup.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
