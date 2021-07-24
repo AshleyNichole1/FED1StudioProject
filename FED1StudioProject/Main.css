@@ -1,57 +1,34 @@
-﻿
-/*header {
-    font-style: italic;
-}
+﻿@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
 
 body {
-    font-style: oblique;
-}*/
-
-
-
-
-
-
-
-/*@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
-
-    font-family: 'Festive', cursive;*/
-
-
-
-header {
-    /*color: maroon;*/
-    font-size: 20px;
-   
-}
-
-body {
-    /*background-color: #420B0B;*/
     font-family: 'Times New Roman';
     font-style: oblique;
+    
 }
 
-/*p {
-    /*color: darkblue;*/
-    /*font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-}*/
+header {
+    
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
 
-/*#colorGradient1 {
-    background-image: linear-gradient(90deg, red, yellow);
-}*/
+#headerOverlay {
+    background-image: url('images/Nursing Icon.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 80% center;
+    padding:1em;
+}
 
 nav ul li {
     display: inline-block;
-    
 }
 
 
     nav ul li a {
         padding: .6em;
-        /*display: ruby-text;*/
-        /*color: #610300;*/
-        text-decoration: none;
+
+        text-decoration: double;
     }
 
 #teamleftColumn{
@@ -65,19 +42,34 @@ nav ul li {
 }*/
 
 /*!important is the jedi mind trick for CSS, only to be used if a particular class selector should use a certain set of styling NO MATTER WHAT*/
-div.GalleryItem {
+article.GalleryItem {
     margin: 5px;
     /*border: 5px solid #CCC;*/
     display: inline-flex;
-    width: 350px;
+    width: 800px;
 }
+
+article.GalleryItem2 {
+    margin: 5px;
+    /*border: 5px solid #CCC;*/
+    display: inline-flex;
+    width: 800px;
+}
+
+article.GalleryItem3 {
+    margin: 5px;
+    /*border: 5px solid #CCC;*/
+    display: inline-flex;
+    width: 800px;
+}
+
 
 /*div.GalleryItem:hover {
     border: 1px solid maroon;
 
     }*/
 
-div.GalleryItem img{
+article.GalleryItem img{
     width:100%;
     height: auto;
 }
