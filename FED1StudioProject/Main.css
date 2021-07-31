@@ -85,3 +85,40 @@ article.GalleryItem img{
     text-align: center;
   
 }
+
+#hats, #xray{
+    float:right;
+    height:200px;
+    margin-left:20px;
+}
+
+#cpr,#team {
+    float:left;
+    height: 200px;
+    margin-right:20px;
+}
+
+#whyUs {
+    float:right;
+}
+
+
+
+#frontendDev aside {
+    width: 85%;
+    margin: 0 auto;
+}
+
+    #frontendDev aside p {
+        margin: 0 75px;
+    }
+
+    #frontendDev aside h3 {
+        margin: 10px 75px;
+    }
+
+
+
+/*<a href="index.html" >
+<i class="fas fa-stethoscope" > NursingAdLib</i >
+</a >*/
