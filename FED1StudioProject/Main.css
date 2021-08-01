@@ -1,124 +1,437 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Shadows+Into+Light&family=Zen+Tokyo+Zoo&display=swap');
+
+@import url('import.css');
+
+ /*Font familis
+
+    font-family: 'Fuggles', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Zen Tokyo Zoo', cursive;*/
 
 
-body {
-    font-family: 'Times New Roman';
-    font-style: oblique;
-    
-}
+/*
+    Adobe theme colors:
+    Top-Dark blue: #012340
+    Top-mid1 mid blue:#04ADBF
+    Absolute mid blue:#04BFBF
+    bottom mid2 orange:#F2AA6B
+    bottom-sand: #F2CEAE
+*/
 
 header {
-    
-    font-family: 'Zen Tokyo Zoo', cursive;
+    background-color: ivory;
+    color: maroon;
 }
+
+main {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+footer {
+    background-color: darkblue;
+    color: coral; /*Change background and color colors*/
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+}
+
+aside h2 {
+    background-color: indigo;
+    color: cadetblue; /*Change color*/
+    text-decoration: underline;
+}
+
+header h1 {
+    /*color: crimson;*/
+    font-size: 56px;
+}
+
+ul.blocklist {
+    list-style: none;
+}
+
+    ul.blocklist a {
+        color: indigo;
+        display: block;
+    }
+
+        ul.blocklist a:hover {
+            background-color: indigo;
+            color: chartreuse;
+        }
+
+/*Site nav*/
+a {
+    /*color: darkgreen;*/
+    /*font-weight: bold;*/
+    text-decoration: none;
+}
+
+    a:hover, a:active, a:focus {
+        color: lightcoral;
+        text-decoration: underline;
+        background-color: darkcyan;
+    }
+
+/*nav a {
+    color: lightblue;
+}*/
+
+    nav a:hover, a:active, a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: teal; /*Look to change this color*/
+}
+
+nav li:hover {
+    background-color: darkslateblue;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: .4em;
+    display: block;
+}
+
+/*nav page highlighted*/
+
+.selected {
+    background-color: darkslateblue;
+}
+
+/*colors*/
+
+#colordemo1 {
+    background-color: #7A0905;
+    color: #F9121F;
+}
+
+#colordemo2 {
+    background-color: #AAA;
+    color: #333;
+}
+
+#colordemo3 {
+    background-color: rgb(123, 86,230);
+    color: rgb(12,30,80)
+}
+
+#colordemo4 {
+    background-color: rgba(200,80,100,.8);
+    color: rgb(12,91,256)
+}
+
+#colorGradient1 {
+    background-image: linear-gradient(90deg, red, yellow);
+}
+
+#colorGradient2 {
+    background-image: radial-gradient(circle farthest-side at 50% 60%, pink, purple, blue);
+}
+
+#fontdemo1 {
+    font-family: serif;
+}
+
+#fontdemo2 {
+    font-family: sans-serif;
+}
+
+#fontdemo3 {
+    font-family: cursive;
+}
+
+#fontdemo4 {
+    font-family: monospace;
+}
+
+#fontdemo5 {
+    font-family: fantasy;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.letter-spacing {
+    letter-spacing: 3em;
+}
+
+.word-spacing {
+    word-spacing: 1em;
+}
+
+/*.cdnDemo1 {
+    font-family: 'Fuggles', cursive;
+}*/
+
+/*.cdnDemo2 {
+    font-family: 'Shadows Into Light', cursive;
+}*/
+
+/*.cdnDemo3 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}*/
+
+
+
+
+header {
+    background-image: url(../Images/a-r-t-paola-589990-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 #headerOverlay {
     background-image: url('images/Nursing Icon.png');
     background-repeat: no-repeat;
-    background-size: 70px;
-    background-position: 80% center;
-    padding:1em;
+    background-size: 90px;
+    background-position: 3% center;
+    /*padding: 2em;*/
 }
 
-nav ul li {
+header h1, header p {
+    margin: 7px 0 7px 150px;
+}
+
+/*header h1 {
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #96F3FA;
+}*/
+
+header {
+    border-radius: 5px;
+}
+
+
+
+body {
+    background: url('images/thomas-bormans-IHQHXj3jv6E-unsplash (1).jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 5%;
+}
+
+
+
+/*nav ul {
+    min-height: 52px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 200px;
+}*/
+
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
     display: inline-block;
+    width: 350px;
 }
 
-
-    nav ul li a {
-        padding: .6em;
-
-        text-decoration: double;
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
     }
 
-#teamleftColumn{
-    margin-right:25%;
-    border-right:1px dashed teal;
-}
-
-/*nav ul li.logoColor {
-    background-color: #E34A44;
-   
-}*/
-
-/*!important is the jedi mind trick for CSS, only to be used if a particular class selector should use a certain set of styling NO MATTER WHAT*/
-article.GalleryItem {
-    margin: 5px;
-    /*border: 5px solid #CCC;*/
-    display: inline-flex;
-    width: 800px;
-}
-
-article.GalleryItem2 {
-    margin: 5px;
-    /*border: 5px solid #CCC;*/
-    display: inline-flex;
-    width: 800px;
-}
-
-article.GalleryItem3 {
-    margin: 5px;
-    /*border: 5px solid #CCC;*/
-    display: inline-flex;
-    width: 800px;
-}
 
 
-/*div.GalleryItem:hover {
-    border: 1px solid maroon;
 
-    }*/
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
 
-article.GalleryItem img{
-    width:100%;
-    height: auto;
-}
-
-/*div.GalleryItem a:hover{
-    background-color: marron;
-
-}*/
-
-#ImageGallery{
+#imageGallery {
     margin: 0 auto;
     width: 85%;
     text-align: center;
-  
 }
 
-#hats, #xray{
-    float:right;
-    height:200px;
-    margin-left:20px;
+.mainWrapper {
+    padding: 1%;
 }
 
-#cpr,#team {
-    float:left;
-    height: 200px;
-    margin-right:20px;
+footer {
+    padding: 1%;
+    padding-top: 1%;
 }
 
-#whyUs {
-    float:right;
+/*nav ul {
+    margin: 0;
+}*/
+
+aside h2 {
+    padding: 2%;
+}
+#indexRight {
+    text-align: right;
+}
+
+#footCenter {
+    text-align: center;
+}
+
+#xray {
+    float: left;
+    margin-right: 80px;
+    float: right;
+    margin-left: 20px;
 }
 
 
-
-#frontendDev aside {
+#frontendDev section {
     width: 85%;
     margin: 0 auto;
 }
 
-    #frontendDev aside p {
-        margin: 0 75px;
-    }
-
-    #frontendDev aside h3 {
+    #frontendDev section h3 {
         margin: 10px 75px;
     }
 
+    #frontendDev section p {
+        float:inherit;
+        margin: 0px 75px;
+    }
 
 
-/*<a href="index.html" >
-<i class="fas fa-stethoscope" > NursingAdLib</i >
-</a >*/
+#leftColumn {
+    width: 73%;
+    /*border-right: 1px dashed teal;*/
+}
+
+#rightcolumn {
+    width: 25%;
+    float: right;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+
+#cprleftColumn {
+    margin-right: 25%;
+    border-right: 1px dashed teal;
+}
+
+#crpightcolumn {
+    width: 25%;
+    float: right;
+}
+
+
+#xrayLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#cprRightColumn {
+    width: 25%;
+    float: right;
+}
+
+#cpr, #team {
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+}
+
+#whyUs {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: #96F3FA;
+}
+
+tfoot {
+    background-color: teal;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+
+
+div#webResources article {
+    float: left;
+    width: 33.3%;
+}
+
+
+
+section#leftColumn.mainWrapper {
+    padding: 7px;
+}
+
+.teamCenter {
+    float:inherit;
+    display: inline-flex;
+
+}
+.textMargin {
+    margin-top:80px;
+    margin-left:2%;
+    margin-right:20%;
+
+}
+
+
+#contactCenter {
+    text-align: center;
+}
+
+ul.contactList {
+    list-style: none;
+}
+
+p.cprMargin {
+    margin-right:30%;
+}
+
+

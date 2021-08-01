@@ -76,6 +76,7 @@
     <Content Include="images\cdc-bsT-u4nBe7o-unsplash %281%29.jpg" />
     <Content Include="images\christian-buehner-DItYlc26zVI-unsplash.jpg" />
     <Content Include="images\icons8-team-FcLyt7lW5wg-unsplash %281%29.jpg" />
+    <Content Include="images\lesly-juarez-DFtjXYd5Pto-unsplash %281%29.jpg" />
     <Content Include="images\martin-splitt-8ByBvAXwFEc-unsplash %281%29.jpg" />
     <Content Include="images\maxim-tolchinskiy-Ex5WE95GwaI-unsplash %281%29.jpg" />
     <Content Include="images\michael-dam-mEZ3PoFGs_k-unsplash %282%29.jpg" />
@@ -90,7 +91,10 @@
     <Content Include="images\yogendra-singh-HrpYHchKb5Y-unsplash.jpg" />
     <Content Include="Main.css" />
     <Content Include="Main\About.html" />
+    <Content Include="Main\Administration.html" />
     <Content Include="Main\Extras.html" />
+    <Content Include="Main\Instructors.html" />
+    <Content Include="Main\Sales.html" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
