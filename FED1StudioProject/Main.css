@@ -1,90 +1,64 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Shadows+Into+Light&family=Zen+Tokyo+Zoo&display=swap');
-
-@import url('import.css');
-
- /*Font familis
-
-    font-family: 'Fuggles', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Zen Tokyo Zoo', cursive;*/
-
-
-/*
-    Adobe theme colors:
-    Top-Dark blue: #012340
-    Top-mid1 mid blue:#04ADBF
-    Absolute mid blue:#04BFBF
-    bottom mid2 orange:#F2AA6B
-    bottom-sand: #F2CEAE
-*/
-
-header {
-    background-color: ivory;
-    color: maroon;
-}
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 main {
-    background-color: rgba(211, 211, 211, 0.9);
+    background-color: transparent;
 }
 
 footer {
-    background-color: darkblue;
-    color: coral; /*Change background and color colors*/
+    background-color: #392A40;
+    color: #D9B391; 
 }
 
 h1 {
-    color: black;
+    /*color: black;*/
     font-size: 28px;
+   
 }
 
 aside h2 {
-    background-color: indigo;
-    color: cadetblue; /*Change color*/
+    background-color: #392A40;
+    color: aliceblue; 
     text-decoration: underline;
 }
 
 header h1 {
-    /*color: crimson;*/
+    font-family: 'Lobster', cursive;
     font-size: 56px;
 }
 
 ul.blocklist {
     list-style: none;
+   
 }
 
-    ul.blocklist a {
-        color: indigo;
-        display: block;
-    }
+ul.blocklist a {
+    font-size: 24px;
+    display: block;
+}
 
-        ul.blocklist a:hover {
-            background-color: indigo;
-            color: chartreuse;
-        }
+ul.blocklist a:hover {
+    color: #D9B391;
+}
 
-/*Site nav*/
 a {
-    /*color: darkgreen;*/
-    /*font-weight: bold;*/
+    color: aliceblue;
+    font-weight: bold;
     text-decoration: none;
 }
 
-    a:hover, a:active, a:focus {
-        color: lightcoral;
-        text-decoration: underline;
-        background-color: darkcyan;
-    }
+a:hover, a:active, a:focus {
+    color: lavender;
+    text-decoration: underline;
+}
 
-/*nav a {
-    color: lightblue;
-}*/
-
-    nav a:hover, a:active, a:focus {
-        text-decoration: none;
-    }
+nav a:hover, a:active, a:focus {
+    text-decoration: none;
+}
 
 nav ul {
-    background-color: teal; /*Look to change this color*/
+    background-color: #392A40; 
 }
 
 nav li:hover {
@@ -100,166 +74,55 @@ nav ul li a {
     display: block;
 }
 
-/*nav page highlighted*/
+
 
 .selected {
     background-color: darkslateblue;
 }
-
-/*colors*/
-
-#colordemo1 {
-    background-color: #7A0905;
-    color: #F9121F;
-}
-
-#colordemo2 {
-    background-color: #AAA;
-    color: #333;
-}
-
-#colordemo3 {
-    background-color: rgb(123, 86,230);
-    color: rgb(12,30,80)
-}
-
-#colordemo4 {
-    background-color: rgba(200,80,100,.8);
-    color: rgb(12,91,256)
-}
-
-#colorGradient1 {
-    background-image: linear-gradient(90deg, red, yellow);
-}
-
-#colorGradient2 {
-    background-image: radial-gradient(circle farthest-side at 50% 60%, pink, purple, blue);
-}
-
-#fontdemo1 {
-    font-family: serif;
-}
-
-#fontdemo2 {
-    font-family: sans-serif;
-}
-
-#fontdemo3 {
-    font-family: cursive;
-}
-
-#fontdemo4 {
-    font-family: monospace;
-}
-
-#fontdemo5 {
-    font-family: fantasy;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.italics {
-    font-style: italic;
-}
-
-.small-caps {
-    font-variant: small-caps;
-}
-
-.letter-spacing {
-    letter-spacing: 3em;
-}
-
-.word-spacing {
-    word-spacing: 1em;
-}
-
-/*.cdnDemo1 {
-    font-family: 'Fuggles', cursive;
-}*/
-
-/*.cdnDemo2 {
-    font-family: 'Shadows Into Light', cursive;
-}*/
-
-/*.cdnDemo3 {
-    font-family: 'Zen Tokyo Zoo', cursive;
-}*/
-
-
-
-
-header {
-    background-image: url(../Images/a-r-t-paola-589990-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 #headerOverlay {
     background-image: url('images/Nursing Icon.png');
     background-repeat: no-repeat;
     background-size: 90px;
     background-position: 3% center;
-    /*padding: 2em;*/
 }
 
 header h1, header p {
     margin: 7px 0 7px 150px;
 }
 
-/*header h1 {
-    text-align: left;
-    letter-spacing: 0.1em;
-    color: #96F3FA;
-}*/
-
 header {
     border-radius: 5px;
 }
 
-
-
 body {
-    background: url('images/thomas-bormans-IHQHXj3jv6E-unsplash (1).jpg') no-repeat center center fixed;
+    background: url('images/baim-hanif-pYWuOMhtc6k-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 5%;
 }
 
 
-
-/*nav ul {
-    min-height: 52px;
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: 200px;
-}*/
-
-
 div.galleryItem {
     margin: 5px;
-    border: 1px solid #ccc;
     display: inline-block;
-    width: 350px;
+    width: 350px;   
 }
 
-    div.galleryItem:hover {
-        border: 1px solid lightsalmon;
-    }
+ div.galleryItem:hover {
+   border: 3px solid #392A40;
+ }
 
 
-
-
-    div.galleryItem a:hover {
-        background-color: lightsalmon;
-    }
+div.galleryItem a:hover {
+    background-color: #392A40;
+}
 
 #imageGallery {
     margin: 0 auto;
     width: 85%;
     text-align: center;
+    color: ghostwhite;
+    font-weight: bolder;
 }
 
 .mainWrapper {
@@ -271,19 +134,22 @@ footer {
     padding-top: 1%;
 }
 
-/*nav ul {
-    margin: 0;
-}*/
-
 aside h2 {
     padding: 2%;
 }
 #indexRight {
     text-align: right;
 }
+#indexLeft{
+    text-align: left;
+}
 
 #footCenter {
     text-align: center;
+}
+#courseCenter {
+    text-align:center;
+    margin:3%;
 }
 
 #xray {
@@ -293,25 +159,8 @@ aside h2 {
     margin-left: 20px;
 }
 
-
-#frontendDev section {
-    width: 85%;
-    margin: 0 auto;
-}
-
-    #frontendDev section h3 {
-        margin: 10px 75px;
-    }
-
-    #frontendDev section p {
-        float:inherit;
-        margin: 0px 75px;
-    }
-
-
 #leftColumn {
     width: 73%;
-    /*border-right: 1px dashed teal;*/
 }
 
 #rightcolumn {
@@ -354,17 +203,12 @@ aside h2 {
 }
 
 #whyUs {
-    float: right;
+    margin-left:20%;
+    text-decoration:underline;
+    color:aliceblue;
+
 }
 
-.clear {
-    clear: both;
-}
-
-table, tr, td, th {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
 
 table {
     margin: auto;
@@ -381,29 +225,32 @@ td, th {
 }
 
 thead {
-    background-color: #96F3FA;
+    background-color: #7B505A;
+    color: aliceblue;
 }
 
 tfoot {
-    background-color: teal;
+    background-color: #7B505A;
 }
 
-    tfoot tr, tfoot td {
-        border: 0;
-    }
+tfoot tr, tfoot td {
+    border: 0;
+}
 
 tbody tr:nth-child(even) {
-    background-color: lightsalmon;
+    background-color: #A68881;
 }
 
 
+tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
 
-div#webResources article {
+
+#teamDepart article {
     float: left;
     width: 33.3%;
 }
-
-
 
 section#leftColumn.mainWrapper {
     padding: 7px;
@@ -412,7 +259,7 @@ section#leftColumn.mainWrapper {
 .teamCenter {
     float:inherit;
     display: inline-flex;
-
+    margin:3%;
 }
 .textMargin {
     margin-top:80px;
@@ -420,10 +267,32 @@ section#leftColumn.mainWrapper {
     margin-right:20%;
 
 }
+td.tdContact {
+    text-align:center;
 
+}
+#fbRight {
+    float: right;
+    color: #3A558C;
+    margin: -150px 150px 15px 10px;
+}
+
+#twtrRight {
+    float: right;
+    color: #55ACEE;
+    margin: -150px 100px 15px 10px;
+}
+
+#instaRight {
+    float: right;
+    color: #D74D5F;
+    margin: -150px 50px 15px 10px;
+}
 
 #contactCenter {
     text-align: center;
+    color:aliceblue;
+ 
 }
 
 ul.contactList {
@@ -434,4 +303,13 @@ p.cprMargin {
     margin-right:30%;
 }
 
+p {
+    /*font-weight: bold;*/
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Abril Fatface', cursive;
+}
 
+h3 {
+    color:aliceblue;
+}
