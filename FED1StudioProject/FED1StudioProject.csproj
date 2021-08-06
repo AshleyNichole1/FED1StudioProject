@@ -67,38 +67,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="classes.html" />
+    <Content Include="images\camilo-jimenez-vGu08RYjO-s-unsplash %281%29.jpg" />
+    <Content Include="images\cdc-FcIrL0o71Dk-unsplash %281%29.jpg" />
+    <Content Include="images\cdc-VdkZz0v7EM8-unsplash %281%29.jpg" />
+    <Content Include="images\hush-naidoo-yo01Z-9HQAw-unsplash %281%29.jpg" />
+    <Content Include="images\jonathan-borba-v_2FRXEba94-unsplash %281%29.jpg" />
+    <Content Include="images\olga-guryanova-tMFeatBSS4s-unsplash %281%29.jpg" />
+    <Content Include="images\robina-weermeijer-NIuGLCC7q54-unsplash %281%29.jpg" />
+    <Content Include="images\vasily-koloda-8CqDvPuo_kI-unsplash.jpg" />
+    <Content Include="Main\classes.html" />
+    <Content Include="Main\contact.html" />
+    <Content Include="Main\index.html" />
+    <Content Include="Main\team.html" />
+    <Content Include="stylesheet\Backup.css" />
+    <None Include="stylesheet\wrongclass" />
     <Content Include="favicon.ico" />
-    <Content Include="images\326-3264029_stethoscope-medicine-heart-computer-icons-nursing-stethoscope-art.png" />
     <Content Include="images\ani-kolleshi-7jjnJ-QA9fY-unsplash %281%29.jpg" />
     <Content Include="images\baim-hanif-pYWuOMhtc6k-unsplash.jpg" />
     <Content Include="images\baim-hanif-pYWuOMhtc6k-unsplash.png" />
     <Content Include="images\bbh-singapore-wJNCtaWiAjg-unsplash %281%29.jpg" />
     <Content Include="images\cdc-bsT-u4nBe7o-unsplash %281%29.jpg" />
     <Content Include="images\christian-buehner-DItYlc26zVI-unsplash.jpg" />
+    <Content Include="images\christina-wocintechchat-com-0Zx1bDv5BNY-unsplash %281%29.jpg" />
+    <Content Include="images\christina-wocintechchat-com-c-mgSuxqpzA-unsplash %281%29.jpg" />
+    <Content Include="images\etty-fidele-VNYCIbZju0o-unsplash %281%29.jpg" />
     <Content Include="images\icons8-team-FcLyt7lW5wg-unsplash %281%29.jpg" />
-    <Content Include="images\lesly-juarez-DFtjXYd5Pto-unsplash %281%29.jpg" />
+    <Content Include="images\itay-verchik-YmQ8TrsieE4-unsplash %281%29.jpg" />
     <Content Include="images\martin-splitt-8ByBvAXwFEc-unsplash %281%29.jpg" />
     <Content Include="images\maxim-tolchinskiy-Ex5WE95GwaI-unsplash %281%29.jpg" />
-    <Content Include="images\michael-dam-mEZ3PoFGs_k-unsplash %282%29.jpg" />
     <Content Include="images\motunrayo-babatunde-CMYyo5ce-Ac-unsplash.jpg" />
     <Content Include="images\national-cancer-institute-bM4MXYPY61U-unsplash %281%29.jpg" />
+    <Content Include="images\national-cancer-institute-Eln_eAlSnKg-unsplash %281%29.jpg" />
     <Content Include="images\national-cancer-institute-XrLSV-CKmuQ-unsplash %281%29.jpg" />
     <Content Include="images\Nursing Icon.png" />
+    <Content Include="images\redd-v6771a4avV4-unsplash %281%29.jpg" />
     <Content Include="images\shipman-northcutt-sgZX15Da8YE-unsplash %281%29.jpg" />
     <Content Include="images\sigmund-MQ2xYBHImKM-unsplash %281%29.jpg" />
-    <Content Include="images\vince-fleming-_THUISs23CI-unsplash %281%29.jpg" />
     <Content Include="images\yogendra-singh-HrpYHchKb5Y-unsplash.jpg" />
-    <Content Include="Main.css" />
-    <Content Include="Main\About.html" />
+    <Content Include="js\toggle.js" />
+    <Content Include="stylesheet\Main.css" />
+    <Content Include="scripts\About.html" />
     <Content Include="Main\Administration.html" />
-    <Content Include="Main\Extras.html" />
+    <Content Include="scripts\Extras.html" />
     <Content Include="Main\Instructors.html" />
     <Content Include="Main\Sales.html" />
-    <Content Include="team.html" />
-    <Content Include="contact.html" />
-    <Content Include="index.html" />
-    <Content Include="stylesheets\Backup.css" />
+    <None Include="stylesheet\wrongteam" />
+    <None Include="stylesheet\wrongcontact" />
+    <None Include="scripts\wrongcss" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="stylesheet\wrongindex" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,7 +130,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts\" />
+    <Folder Include="css\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

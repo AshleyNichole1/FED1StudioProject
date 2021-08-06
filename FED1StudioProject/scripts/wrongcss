@@ -1,0 +1,360 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+main {
+    background-color: rgba(0,0,0,.9);
+}
+
+footer {
+    /*background-color: #392A40;*/
+    color: #D9B391;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 2em;
+    margin: 1px;
+}
+
+aside h2 {
+    background-color: #392A40;
+    color: aliceblue;
+    text-decoration: underline;
+    color: #D9B391;
+}
+
+h1.header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+
+ul.blocklist {
+    list-style: none;
+}
+
+    ul.blocklist a {
+        font-size: 1.5em;
+        display: block;
+    }
+
+        ul.blocklist a:hover {
+            color: #D9B391;
+        }
+
+a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a:hover, a:active, a:focus {
+        color: lavender;
+        text-decoration: underline;
+    }
+
+    nav a:hover, a:active, a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: #392A40;
+}
+
+nav li:hover {
+    background-color: darkslateblue;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: .4em;
+    display: block;
+}
+
+
+.selected {
+    background-color: darkslateblue;
+}
+
+#headerOverlay {
+    background-image: url('../images/Nursing Icon.png');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+}
+
+header h1, header p {
+    margin: 7px 0 7px 150px;
+}
+
+header {
+    border-radius: 5px;
+}
+
+body {
+    background: url('../images/baim-hanif-pYWuOMhtc6k-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 5%;
+    padding-bottom: 2%;
+}
+
+
+div.galleryItem {
+    margin: auto;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 3px solid #392A40;
+    }
+
+
+    div.galleryItem a:hover {
+        background-color: #392A40;
+    }
+
+#classeSub {
+    margin: 1%;
+    width: auto;
+    text-align: center;
+    color: ghostwhite;
+    font-weight: bolder;
+}
+
+.mainWrapper {
+    padding: 3%;
+}
+
+footer {
+    padding: 1%;
+    padding-top: 1%;
+}
+
+aside h2 {
+    padding: 2%;
+}
+
+.indexRight {
+    text-align: left;
+}
+
+.indexLeft {
+    text-align: left;
+}
+
+#footCenter {
+    text-align: center;
+}
+
+#courseCenter {
+    text-align: center;
+    margin: 3%;
+}
+
+#xray {
+    border-radius: 2%;
+    margin-left: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+#leftColumn {
+    width: 73%;
+    border-right: dashed;
+}
+
+#rightcolumn {
+    width: 26%;
+    float: right;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+
+#cprleftColumn {
+    margin-right: 25%;
+    border-right: 1px dashed teal;
+}
+
+#crpightcolumn {
+    width: 25%;
+    float: right;
+}
+
+
+#xrayLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#cprRightColumn {
+    width: 25%;
+    float: right;
+}
+
+#cpr, #team {
+    border-radius: 2%;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#whyUs {
+    margin-left: 20%;
+    text-decoration: underline;
+    color: #D9B391;
+}
+
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: #7B505A;
+    color: aliceblue;
+}
+
+tfoot {
+    background-color: #7B505A;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: #A68881;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+
+#teamDepart article {
+    float: left;
+    width: 33.3%;
+}
+
+section#leftColumn.mainWrapper {
+    padding: 7px;
+}
+
+.teamCenter {
+    float: inherit;
+    display: inline-flex;
+    margin: 2%;
+}
+
+.textMargin {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+td.tdContact {
+    text-align: center;
+}
+
+#fbRight {
+    float: right;
+    color: #3A558C;
+    margin: -150px 150px 15px 10px;
+}
+
+#twtrRight {
+    float: right;
+    color: #55ACEE;
+    margin: -150px 100px 15px 10px;
+}
+
+#instaRight {
+    float: right;
+    color: #D74D5F;
+    margin: -150px 50px 15px 10px;
+}
+
+#contactCenter {
+    text-align: center;
+    color: aliceblue;
+}
+
+ul.contactList {
+    list-style: none;
+}
+
+p.cprMargin {
+    margin-right: 20%;
+}
+
+p {
+    /*font-weight: bold;*/
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+
+
+@media(max-width:768px) {
+    #topnav {
+        display: none;
+    }
+
+        #topnav.toggleCls {
+            display: block;
+        }
+
+
+
+
+    nav ul#topnav.expanded {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+        nav ul#topnav.expanded li {
+            display: block;
+        }
+
+            nav ul#topnav.expanded li a {
+                display: block;
+                text-align: center;
+                font-size: 1em;
+            }
+}
+
+@media(min-width:769px) {
+    .hamIcon {
+        display: none;
+    }
+}

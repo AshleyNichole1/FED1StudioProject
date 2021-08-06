@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link href="../stylesheet/Main.css" rel="stylesheet" id="main" />
 
-    <link href="stylesheets/Backup.css" rel="stylesheet" />
-    <link href="Main.css" rel="stylesheet" />
+    
     <meta name="description" content="This is a test page" />
     <meta name="keywords" content="CSS,HTML" />
     <meta charset="utf-8" />
-    <title>Contact Information</title>
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
+    <script src="../js/toggle.js"></script>
+
+    <title>Contact Information</title>
 </head>
 <body class=" cdnDemo2">
 
@@ -20,14 +22,19 @@
             <p>
                 Transforming Lifes
             </p>
-            <a href="https://www.facebook.com/" target="_blank" > <i id="fbRight" class="fab fa-facebook"></i></a>
-            <a href="https://mobile.twitter.com/login" target="_blank" > <i id="twtrRight" class="fab fa-twitter-square"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" ><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+            <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
+            <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
         </div>
     </header>
     <nav>
-        <ul>
+        <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
+            <h1>&#9776;</h1>
+        </div>
+
+        <ul id="topnav">
             <li>
+                <!--class="selected"-->
                 <a href="index.html">
                     Home
                 </a>
@@ -39,7 +46,7 @@
             </li>
 
             <li>
-                <a href="../classes.html">
+                <a href="classes.html">
                     Course Schedule
                 </a>
             </li>
@@ -50,10 +57,9 @@
                 </a>
             </li>
             <li>
-
+                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
             </li>
         </ul>
-
     </nav>
 
     <main>
@@ -75,10 +81,10 @@
             </section>
             <br />
             <p>
-                Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                Please check Locations and Directions for more detailed information.
             </p>
         </section>
-        <aside>
+        <!--<aside>
             <h2 id="asideHeader">List locations here</h2>
             <ul class="asideList">
                 <li>
@@ -94,7 +100,7 @@
                     Virtual
                 </li>
             </ul>
-        </aside>
+        </aside>-->
 
     </main>
     <footer>
@@ -110,8 +116,9 @@
     <h2 id="footCenter">
         Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
     </h2>
-    <a href="https://www.facebook.com/" target="_blank" > <i id="fbRight" class="fab fa-facebook"></i></a>
-    <a href="https://mobile.twitter.com/login" target="_blank" > <i id="twtrRight" class="fab fa-twitter-square"></i></a>
-    <a href="https://www.instagram.com/" target="_blank" ><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+    <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
+    <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+    <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
 </body>
 </html>

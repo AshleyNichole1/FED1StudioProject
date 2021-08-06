@@ -1,46 +1,49 @@
-﻿
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 main {
-    background-color: transparent;
+    background-color: rgba(0,0,0,.9);
 }
 
 footer {
-    background-color: #392A40;
-    color: #D9B391; 
+    /*background-color: #392A40;*/
+    color: #D9B391;
 }
 
 h1 {
-    /*color: black;*/
-    font-size: 28px;
-   
+    color: aliceblue;
+    font-size: 2em;
+    margin: 1px;
 }
 
 aside h2 {
     background-color: #392A40;
-    color: aliceblue; 
+    color: aliceblue;
     text-decoration: underline;
+    color: #D9B391;
+}
+
+h1.header {
+    text-align: center;
 }
 
 header h1 {
     font-family: 'Lobster', cursive;
-    font-size: 56px;
+    font-size: 3em;
 }
 
 ul.blocklist {
     list-style: none;
-   
 }
 
-ul.blocklist a {
-    font-size: 24px;
-    display: block;
-}
+    ul.blocklist a {
+        font-size: 1.5em;
+        display: block;
+    }
 
-ul.blocklist a:hover {
-    color: #D9B391;
-}
+        ul.blocklist a:hover {
+            color: #D9B391;
+        }
 
 a {
     color: aliceblue;
@@ -48,17 +51,17 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
-    color: lavender;
-    text-decoration: underline;
-}
+    a:hover, a:active, a:focus {
+        color: lavender;
+        text-decoration: underline;
+    }
 
-nav a:hover, a:active, a:focus {
-    text-decoration: none;
-}
+    nav a:hover, a:active, a:focus {
+        text-decoration: none;
+    }
 
 nav ul {
-    background-color: #392A40; 
+    background-color: #392A40;
 }
 
 nav li:hover {
@@ -75,13 +78,12 @@ nav ul li a {
 }
 
 
-
 .selected {
     background-color: darkslateblue;
 }
 
 #headerOverlay {
-    background-image: url('images/Nursing Icon.png');
+    background-image: url('../images/Nursing Icon.png');
     background-repeat: no-repeat;
     background-size: 90px;
     background-position: 3% center;
@@ -96,37 +98,42 @@ header {
 }
 
 body {
-    background: url('images/baim-hanif-pYWuOMhtc6k-unsplash.jpg') no-repeat center center fixed;
+    background: url('../images/baim-hanif-pYWuOMhtc6k-unsplash.jpg') no-repeat center center fixed;
+
     background-size: cover;
     margin: 5%;
+    padding-bottom: 2%;
 }
 
 
 div.galleryItem {
-    margin: 5px;
+    margin: auto;
     display: inline-block;
-    width: 350px;   
+    width: 350px;
+    /*padding: 1%;*/
 }
 
- div.galleryItem:hover {
-   border: 3px solid #392A40;
- }
+    div.galleryItem:hover {
+        border: 3px solid #392A40;
+    }
 
 
-div.galleryItem a:hover {
-    background-color: #392A40;
-}
+    div.galleryItem a:hover {
+        background-color: #392A40;
+    }
 
-#imageGallery {
-    margin: 0 auto;
-    width: 85%;
+#classeSub {
+    margin: 1%;
+    width: auto;
     text-align: center;
     color: ghostwhite;
     font-weight: bolder;
+   
+
 }
 
 .mainWrapper {
-    padding: 1%;
+    padding: 3%;
 }
 
 footer {
@@ -137,34 +144,38 @@ footer {
 aside h2 {
     padding: 2%;
 }
-#indexRight {
-    text-align: right;
+
+.indexRight {
+    text-align: left;
 }
-#indexLeft{
+
+.indexLeft {
     text-align: left;
 }
 
 #footCenter {
     text-align: center;
 }
+
 #courseCenter {
-    text-align:center;
-    margin:3%;
+    text-align: center;
+    margin: 3%;
 }
 
 #xray {
-    float: left;
-    margin-right: 80px;
-    float: right;
+    border-radius: 2%;
     margin-left: 20px;
+    float: left;
+    margin-right: 20px;
 }
 
 #leftColumn {
     width: 73%;
+    border-right: dashed;
 }
 
 #rightcolumn {
-    width: 25%;
+    width: 26%;
     float: right;
 }
 
@@ -197,16 +208,16 @@ aside h2 {
 }
 
 #cpr, #team {
-    float: left;
-    height: 200px;
+    border-radius: 2%;
+    float: right;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 #whyUs {
-    margin-left:20%;
-    text-decoration:underline;
-    color:aliceblue;
-
+    margin-left: 20%;
+    text-decoration: underline;
+    color: #D9B391;
 }
 
 
@@ -216,12 +227,13 @@ table {
 }
 
 th {
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
 }
 
 td, th {
     padding: .3em;
+    font-weight:bolder;
 }
 
 thead {
@@ -233,9 +245,9 @@ tfoot {
     background-color: #7B505A;
 }
 
-tfoot tr, tfoot td {
-    border: 0;
-}
+    tfoot tr, tfoot td {
+        border: 0;
+    }
 
 tbody tr:nth-child(even) {
     background-color: #A68881;
@@ -257,20 +269,22 @@ section#leftColumn.mainWrapper {
 }
 
 .teamCenter {
-    float:inherit;
+    float: inherit;
     display: inline-flex;
-    margin:3%;
+    margin: 2%;
 }
+
 .textMargin {
-    margin-top:80px;
-    margin-left:2%;
-    margin-right:20%;
-
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-bottom: 1%;
 }
+
 td.tdContact {
-    text-align:center;
-
+    text-align: center;
 }
+
 #fbRight {
     float: right;
     color: #3A558C;
@@ -291,8 +305,7 @@ td.tdContact {
 
 #contactCenter {
     text-align: center;
-    color:aliceblue;
- 
+    color: aliceblue;
 }
 
 ul.contactList {
@@ -300,7 +313,7 @@ ul.contactList {
 }
 
 p.cprMargin {
-    margin-right:30%;
+    margin-right: 20%;
 }
 
 p {
@@ -311,5 +324,46 @@ p {
 }
 
 h3 {
-    color:aliceblue;
+    color: aliceblue;
 }
+
+
+
+@media(max-width:768px) {
+    #topnav {
+        display: none;
+    }
+
+        #topnav.toggleCls {
+            display: block;
+        }
+
+
+    nav ul#topnav.expanded {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+        nav ul#topnav.expanded li {
+            display: block;
+        }
+
+            nav ul#topnav.expanded li a {
+                display: block;
+                text-align: center;
+                font-size: 1em;
+            }
+
+    nav ul li:nth-child(2n+1) {
+        background-color: transparent
+    } 
+
+}
+
+@media(min-width:769px) {
+    .hamIcon {
+        display: none;
+    }
+}
+
