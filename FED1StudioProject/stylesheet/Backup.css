@@ -2,25 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 main {
-    background-color: rgba(172,148,141,.8);
+    background-color: rgba(0,0,0,.9);
+    max-width: 980px;
+    margin: 0px 76px 0px 151px
 }
 
 footer {
-    background-color: rgba(0,0,0,.9);
-    color: aliceblue;
+    /*background-color: #392A40;*/
+    color: #D9B391;
+}
+
+#contactmain {
+    margin: 0px 76px 0px 151px;
 }
 
 h1 {
-    color: black;
+    color: aliceblue;
     font-size: 2em;
     margin: 1px;
 }
 
 aside h2 {
-    background-color: rgba(0,0,0,.9);
+    background-color: #392A40;
     color: aliceblue;
     text-decoration: underline;
-    color: aliceblue;
+    color: #D9B391;
 }
 
 h1.header {
@@ -46,7 +52,7 @@ ul.blocklist {
         }
 
 a {
-    color: #412E47;
+    color: aliceblue;
     font-weight: bold;
     text-decoration: none;
 }
@@ -61,11 +67,13 @@ a {
     }
 
 nav ul {
-    background-color: rgba(0,0,0,.9);
+    background-color: #392A40;
+    max-width: 940px;
+    margin: -2px 50px 15px 152px;
 }
 
 nav li:hover {
-    background-color: aliceblue;
+    background-color: rgba(0,0,0,.9);
 }
 
 nav li {
@@ -79,7 +87,8 @@ nav ul li a {
 
 
 .selected {
-    background-color: aliceblue;
+    /*background-color: darkslateblue;*/
+    text-decoration: underline;
 }
 
 #headerOverlay {
@@ -98,18 +107,21 @@ header {
 }
 
 body {
-   
-    background: url('../images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg') no-repeat center center fixed;
+    background: url('../images/baim-hanif-pYWuOMhtc6k-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 5%;
     padding-bottom: 2%;
 }
 
+/*.checkBlock{
+    display:inline-block;
+}*/
 
 div.galleryItem {
     margin: auto;
     display: inline-block;
-    width: 350px;
+    width: 262px;
+    padding: 1%;
 }
 
     div.galleryItem:hover {
@@ -125,12 +137,12 @@ div.galleryItem {
     margin: 1%;
     width: auto;
     text-align: center;
-    color: black;
-    font-weight: bolder;
+    color: ghostwhite;
 }
 
 .mainWrapper {
     padding: 3%;
+    /*outline:groove;*/
 }
 
 footer {
@@ -148,11 +160,11 @@ aside h2 {
 
 .indexLeft {
     text-align: left;
+    margin-left: 81px
 }
 
 #footCenter {
     text-align: center;
-   
 }
 
 #courseCenter {
@@ -163,6 +175,13 @@ aside h2 {
 #xray {
     border-radius: 2%;
     margin-left: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+#frontPage {
+    border-radius: 2%;
+    margin-left: 65px;
     float: left;
     margin-right: 20px;
 }
@@ -208,14 +227,15 @@ aside h2 {
 #cpr, #team {
     border-radius: 2%;
     float: right;
-    margin-right: 20px;
+    margin-right: 59px;
     margin-left: 20px;
 }
 
 #whyUs {
     margin-left: 20%;
     text-decoration: underline;
-    color: black;
+    color: #D9B391;
+    font-family: 'Abril Fatface', cursive;
 }
 
 
@@ -232,15 +252,16 @@ th {
 td, th {
     padding: .3em;
     font-weight: bolder;
+    width: 100%;
 }
 
 thead {
-    background-color: rgba(0,0,0,.9);
-    color: #6D5673;
+    background-color: #7B505A;
+    color: aliceblue;
 }
 
 tfoot {
-    background-color: rgba(0,0,0,.9);
+    background-color: #7B505A;
 }
 
     tfoot tr, tfoot td {
@@ -248,8 +269,7 @@ tfoot {
     }
 
 tbody tr:nth-child(even) {
-    background-color: #7B505A;
-    ;
+    background-color: #A68881;
 }
 
 
@@ -275,7 +295,7 @@ section#leftColumn.mainWrapper {
 
 .textMargin {
     margin-top: 4%;
-    margin-left: 2%;
+    margin-left: 7%;
     margin-right: 10%;
     margin-bottom: 1%;
 }
@@ -286,25 +306,31 @@ td.tdContact {
 
 #fbRight {
     float: right;
-    color: #0F0202;
-    margin: -150px 150px 15px 10px;
+    color: rgba(0,0,0,.9);
+    margin: -47px 129px 15px 10px;
 }
 
 #twtrRight {
     float: right;
-    color: #0F0202;
-    margin: -150px 100px 15px 10px;
+    color: rgba(0,0,0,.9);
+    margin: -47px 100px 15px 10px;
 }
 
 #instaRight {
     float: right;
-    color: #0F0202;
-    margin: -150px 50px 15px 10px;
+    color: rgba(0,0,0,.9);
+    margin: -47px 61px 15px 10px;
+}
+
+#theme {
+    float: right;
+    margin: -2px 50px 15px 10px;
 }
 
 #contactCenter {
     text-align: center;
     color: aliceblue;
+    margin: auto;
 }
 
 ul.contactList {
@@ -317,9 +343,8 @@ p.cprMargin {
 
 p {
     /*font-weight: bold;*/
-    color: black;
+    color: aliceblue;
     font-size: larger;
-    font-family: 'Abril Fatface', cursive;
 }
 
 h3 {
@@ -327,8 +352,19 @@ h3 {
 }
 
 
+.hamIcon {
+    display: none;
+}
 
-@media(max-width:768px) {
+
+
+@media screen and (max-width:768px) {
+
+    .hamIcon {
+        display: inline-block;
+    }
+
+
     #topnav {
         display: none;
     }
@@ -336,8 +372,6 @@ h3 {
         #topnav.toggleCls {
             display: block;
         }
-
-
 
 
     nav ul#topnav.expanded {
@@ -358,12 +392,23 @@ h3 {
 
     nav ul li:nth-child(2n+1) {
         background-color: transparent
-    } 
-
+    }
 }
 
-@media(min-width:769px) {
+/*@media(min-width:769px) {
     .hamIcon {
         display: none;
     }
+}*/
+
+#mainHeader {
+    margin-left: auto;
+    text-decoration: underline;
+    color: #D9B391;
+    font-family: 'Abril Fatface', cursive;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%
 }

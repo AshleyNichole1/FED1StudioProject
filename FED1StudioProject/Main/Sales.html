@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
     <script src="../js/toggle.js"></script>
-
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Sales - Nursing AdLib</title>
 </head>
 <body>
@@ -26,7 +26,15 @@
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
         </div>
     </header>
+
+    <div>
+        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+    </div>
+
     <nav>
+        <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
+            <h1>&#9776;</h1>
+        </div>
         <ul>
             <li id="topnav">
                 <!--class="selected"-->
@@ -50,9 +58,7 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; " onclick="toggleTheme()">Theme</button>
-            </li>
+
         </ul>
     </nav>
 
@@ -86,7 +92,7 @@
         </aside>
 
         <section class="mainWrapper" id="leftColumn">
-            <h1 class="header">Sales</h1>
+            <h1 id="mainHeader" class="header">Sales</h1>
             <br />
             <article>
 
@@ -95,8 +101,23 @@
                          title="shortTitle" height="200" width="250" id="xray" />
 
                     <p class="textMargin">
+                        LEAD SALES REPRESENTATIVE
+                        <br />
+                        <br />
+                        Scott H.
+                        Kuennen, MD
+                        <br />
+                        Undergraduate-University of Kansas, Lawrence, KS, BS - Organismal Biology<br />
+                        Medical School-Saba University School of Medicine, Netherlands Antilles<br />
+                        Residency-Family Medicine - Research Medical Center, Kansas City, MO<br />
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+
+
+                        Professional Areas of Interest – My interests begin with the preservation or quick restoration of optimal health. I practice across the entire scope of Family Medicine, from newborn to elderly. I am a firm believer in open communication with my patients, as well as empowering them with education about health preservation or disease management. More specifically, I have a special interest in sports medicine, dermatologic procedures, weight management, cholesterol disorders, diabetes, hypertension and general pediatrics.
+
+                        Personal Information – I was born in Portsmouth, VA, and moved to Overland Park, KS, at two years of age. I grew up in OP and went to high school at Saint Thomas Aquinas. I graduated from the University of Kansas and I am a huge KU sports fan.
+
+
                     </p>
 
                 </section>
@@ -106,7 +127,21 @@
 
                     <p class="textMargin">
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Christopher L.
+                        Kafka, DO
+                        <br />
+                        <br />
+                        Rockhurst University, Helzberg School of Management, MBA in Health Care Leadership<br />
+                        Board Certification<br />
+                        American Board of Family Medicine<br />
+
+                        Professional Areas of Interest –  I practice across the broad scope of Family Medicine and have special interest in preventative health, “cholesterol” problems, diabetes, hypertension, thyroid disorders and geriatrics. I enjoy the challenge of difficult diagnoses.
+                        <br />
+                        Personal Information – I believe that all people are important.  People should not be prejudged; they should always be “given the benefit of doubt”- this belief has, though it may seem simple, eased the suffering of many patients that I have encountered over the past 28 years as a physician.  I am devoted to helping every patient and have been able to discover many diseases that others have missed with careful listening and a more thorough investigation of their problems.
+                        <br />
+                        As you may notice when you visit our office, one of my hobbies is being an amateur arborist. You will see a variety of native Missouri trees and shrubs growing around our office. I particularly enjoy this quote as it applies to living life:
+                        <br />
+                        The true meaning of life is to plant trees, under whose shade you do not expect to sit. -- Nelson Henderson
                     </p>
 
                 </section>
@@ -115,31 +150,58 @@
                          height="200" width="250" id="xray" />
 
                     <p class="textMargin">
-
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Adrian J.<br />
+                        Delaney, III, MD, MBA
+                        <br />
+                        <br />
+                        Medical School-University of Iowa College of Medicine, Iowa City, IA<br />
+                        Residency-Family Medicine - Baptist Medical Center, Kansas City, MO<br />
+                        Board Certification<br />
+                        American Board of Family Medicine<br />
+                        <br />
+                        Professional Areas of Interest – I practice across the entire scope of Family Medicine, but have a special interest is sports medicine, musculoskeletal care, cholesterol disorders, diabetes, hypertension and general pediatrics.
+                        <br />
+                        Personal Information – I grew up in rural northeast Iowa on a dairy farm as the 7th of nine children.  My wife Kelli and I were blessed with identical twin girls, Avery and Hailey, in October 2009.  My interests outside of medicine focus primarily on spending time with my family.  In addition to my twin girls, I have 20 nieces and nephews and cherish the opportunity to spend time with the rest of my family when time permits.
+                        <br>
+                        I am passionate about the University of Iowa athletics (Go Hawks!) and am a fan of most collegiate and professional sports.  I enjoy getting outdoors, playing recreational sports whenever possible and try to get out to the mountains for a ski trip each winter.
                     </p>
 
                 </section>
             </article>
 
         </section>
-        <footer>
-            <section>
-                <ul>
-                    <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                    <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
 
-                </ul>
-            </section>
+        <footer>
+
             All Rights Reserved 2021
+
         </footer>
-        <h2 id="footCenter">
-            Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
-        </h2>
-        <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
-        <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-        <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+
+
     </main>
+
+    <h2 id="footCenter">
+        Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
+    </h2>
+    <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
+    <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <script>
+        function toggleClass() {
+            let navList = document.getElementById('topnav');
+            navList.classList.toggle('expanded');
+
+            //Toggle Hamburger button/Close button
+            let btn = document.getElementById('menu-btn');
+
+            if (navList.classList.contains('expanded')) {
+                btn.innerHTML = "&times;"
+            }
+            else {
+                btn.innerHTML = "&#9776;";
+            }
+        }
+    </script>
 </body>
 </html>

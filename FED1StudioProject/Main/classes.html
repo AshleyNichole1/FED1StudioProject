@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <script src="../js/toggle.js"></script>
 
     <title>Programs-NursingAdLib</title>
@@ -26,6 +27,11 @@
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
         </div>
     </header>
+
+    <div>
+        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+    </div>
+
     <nav>
         <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
             <h1>&#9776;</h1>
@@ -45,7 +51,7 @@
             </li>
 
             <li class="selected">
-                <a href="../classes.html">
+                <a href="classes.html">
                     Course Schedule
                 </a>
             </li>
@@ -55,9 +61,7 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
-            </li>
+
         </ul>
     </nav>
 
@@ -67,18 +71,18 @@
 
 
             <article id="classeSub">
-                <h1>Class Subjects</h1>
-                <div class="checkBlock">
+                <h1 id="mainHeader">Class Subjects</h1>
+                <div>
                     <div class="galleryItem">
                         <a href="#certifications">
-                            <img src="../images/robina-weermeijer-NIuGLCC7q54-unsplash (1).jpg" 
+                            <img src="../images/robina-weermeijer-NIuGLCC7q54-unsplash (1).jpg"
                                  alt="Plastic anatomically correct heart used for class." title="CNA" width="235" height="180" />
                             <div>CNA, EKG, Phlebotomy</div>
                         </a>
-                        <div >
+                        <p>
                             These short, structured online and hybrid programs will help get you certified in EKG - monitoring the cardiovascular system, phlebotomy - procuring blood samples, or gerontology - the study of aging.
                             <br />
-                        </div>
+                        </p>
                     </div>
 
                     <div class="galleryItem">
@@ -86,19 +90,20 @@
                             <img src="../images/cdc-VdkZz0v7EM8-unsplash (1).jpg" alt="Latex gloved hand using a Q-stick to draw a sample from a test tube" title="LPN" width="235" height="180" />
                             <div> LPN to RN</div>
                         </a>
-                        <div >
-                        Nursing AdLib's LPN to RN program allows you to quickly take your education to the next level. As an LPN, you can get credit by examination for some professional coursework, meaning you'll finish your associate degree faster. 
-                        </div>
+                        <p>
+                            Nursing AdLib's LPN to RN program allows you to quickly take your education to the next level. As an LPN, you can get credit by examination for some professional coursework. Which allows you to graduate quickly.
+                        </p>
                     </div>
 
 
                     <div class="galleryItem">
                         <a href="#RadThe">
-                            <img src="../images/jonathan-borba-v_2FRXEba94-unsplash (1).jpg"  alt="Man holding up x-rays to a lit screen to read results" title="xray" width="235" height="180" />
+                            <img src="../images/jonathan-borba-v_2FRXEba94-unsplash (1).jpg" alt="Man holding up x-rays to a lit screen to read results" title="xray" width="235" height="180" />
                             <div>Radiation Therapy</div>
                         </a>
-                        <div >Over two years, you'll travel to several clinical affiliates, each with different types of patients and equipment, studying the principles of radiation and how they're applied to developing treatment plans.
-                        </div>
+                        <p>
+                            Over two years, you'll travel to several clinical affiliates, each with different types of patients and equipment, studying the principles of radiation and how they're applied to developing treatment plans.
+                        </p>
                     </div>
                 </div>
 
@@ -107,11 +112,12 @@
 
                     <div class="galleryItem">
                         <a href="#cnaCourses">
-                            <img src="../images/cdc-FcIrL0o71Dk-unsplash (1).jpg"  alt="Woman pouring chemicals into a test beaker in a white lab coat, experimenting" title="Science" width="235" height="180" />
+                            <img src="../images/cdc-FcIrL0o71Dk-unsplash (1).jpg" alt="Woman pouring chemicals into a test beaker in a white lab coat, experimenting" title="Science" width="235" height="180" />
                             <div>Associate of Science in Nursing</div>
                         </a>
-                        <div >
-                        Nursing AdLib's associate degree in nursing (ASN) allows you to make an impact quickly in your new healthcare career. In just two years, you will gain the hands-on knowledge and technical skills needed to become a registered nurse.  </div>
+                        <p>
+                            Nursing AdLib's associate degree in nursing (ASN) allows you to make an impact quickly in your new healthcare career. In just two years, you will gain the hands-on knowledge and technical skills needed to become a registered nurse.
+                        </p>
                     </div>
 
                     <div class="galleryItem">
@@ -119,7 +125,7 @@
                             <img src="../images/olga-guryanova-tMFeatBSS4s-unsplash (1).jpg" alt="Two surgeons in full medical protective gear preforming surgery" title="RN" width="235" height="180" />
                             <div>RN to BSN</div>
                         </a>
-                        <div>You're already a great nurse; a bachelor's degree in nursing can open even more doors. If you’re thinking about a BSN we can transfer your existing coursework and finish only what you need to complete your RN-BSN!</div>
+                        <p>You're already a great nurse; a bachelor's degree in nursing can open even more doors. If you’re thinking about a BSN we can transfer your existing coursework and finish only what you need to complete your RN-BSN! Apply below!</p>
 
                     </div>
 
@@ -128,11 +134,11 @@
                             <img src="../images/camilo-jimenez-vGu08RYjO-s-unsplash (1).jpg" alt="An ambulance with lights flashing driving by quickly" title="Administration" width="235" height="180" />
                             <div>HealthCare Administration</div>
                         </a>
-                        <div >
-                            Nursing AdLib's Bachelor of Science in Healthcare Administration degree is a flexible, online/in person bachelor completion* program. If you're already a health professional, it can help you advance your career and earnings to the next level.
+                        <p>
+                            Our Bachelor of Science in Healthcare Administration degree is a flexible, online/in person bachelor completion* program. If you're already a health professional, it can help you advance your career and earnings to the next level.
 
 
-                        </div>
+                        </p>
 
                     </div>
                 </div>
@@ -140,7 +146,7 @@
             </article>
 
 
-       
+
             <div>
                 <table id="certifications">
                     <thead>
@@ -160,20 +166,23 @@
                         <tr>
                             <td><i aria-hidden="true"> </i>HS Graduate</td>
                             <td>EKG Certification</td>
-                            <td>Mrs Whoever</td>
+                            <td>Melissa White</td>
                             <td>Hybrid Classes/1 Semester</td>
                         </tr>
 
                         <tr>
                             <td><i aria-hidden="true"> </i>EKG Certification</td>
                             <td>Phlebotomy Course</td>
-                            <td>Mr whoever</td>
+                            <td>Vincent Demarco</td>
                             <td>Hybrid Classes/1 Semester</td>
                         </tr>
                         <tr>
                             <td><i aria-hidden="true"> </i> Phlebotomy Course</td>
                             <td>Gerontology </td>
-                            <td>Mrs whoever</td>
+                            <td>
+                                Heather R.
+                                Bollinger
+                            </td>
                             <td>Hybrid Classes/1 Semester</td>
                         </tr>
                     </tbody>
@@ -208,20 +217,23 @@
                         <tr>
                             <td><i aria-hidden="true"> </i>Health and Sciences </td>
                             <td>Biology 101&amp;102</td>
-                            <td>Mrs Whoever</td>
+                            <td>
+                                Heather R.
+                                Bollinger
+                            </td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
 
                         <tr>
                             <td><i aria-hidden="true"> </i>Biology 101&amp;102</td>
                             <td>Arts and Sciences</td>
-                            <td>Mr whoever</td>
+                            <td>Melissa White</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                         <tr>
                             <td><i aria-hidden="true"> </i>Arts and Sciences</td>
                             <td>Physiology</td>
-                            <td>Mr whoever</td>
+                            <td>Vincent Demarco</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                     </tbody>
@@ -255,20 +267,23 @@
                         <tr>
                             <td><i aria-hidden="true"> </i>Physiology </td>
                             <td>physics</td>
-                            <td>Mrs Whoever</td>
+                            <td>
+                                Heather R.
+                                Bollinger
+                            </td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
 
                         <tr>
                             <td><i aria-hidden="true"> </i>Arts and Sciences</td>
                             <td>Algebra 101 &amp;102</td>
-                            <td>Mr whoever</td>
+                            <td>Vincent Demarco</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                         <tr>
                             <td><i aria-hidden="true"> </i>Algebra 101 &amp;102</td>
                             <td>Chemistry</td>
-                            <td>Mr whoever</td>
+                            <td>Melissa White</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                     </tbody>
@@ -302,23 +317,26 @@
                         <tr>
                             <td><i aria-hidden="true"> </i>Biology 101 &amp;102</td>
                             <td>Arts and Sciences</td>
-                            <td>Mrs Whoever</td>
+                            <td>
+                                Heather R.
+                                Bollinger
+                            </td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
 
                         <tr>
                             <td><i aria-hidden="true"> </i>Arts and Sciences</td>
                             <td>Test Prep and HESI exam</td>
-                            <td>Mr whoever</td>
+                            <td>Melissa White</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                         <tr>
                             <td><i aria-hidden="true"> </i>Passed HESI exam</td>
                             <td>NCLEX-RN exam</td>
-                            <td>Mrs whoever</td>
+                            <td>Vincent Demarco</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
-                        
+
                     </tbody>
                     <tfoot>
                         <tr>
@@ -335,7 +353,7 @@
                     <thead>
                         <tr>
                             <th colspan="4">
-                               RN-BSN Program
+                                RN-BSN Program
 
                             </th>
                         <tr>
@@ -349,20 +367,23 @@
                         <tr>
                             <td><i aria-hidden="true"> </i>Associates Degree</td>
                             <td>Microbiology</td>
-                            <td>Mr Whoever</td>
+                            <td>
+                                Heather R.
+                                Bollinger
+                            </td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
 
                         <tr>
                             <td><i aria-hidden="true"> </i>Microbiology</td>
                             <td>Basic Pharmacology</td>
-                            <td>Mrs whoever</td>
+                            <td>Melissa White</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                         <tr>
                             <td><i aria-hidden="true"> </i>Basic Pharmacology</td>
                             <td>Pediatric/Adult Nursing.</td>
-                            <td>Mr whoever</td>
+                            <td>Vincent Demarco</td>
                             <td>Hybrid Classes/2 Semesters</td>
                         </tr>
                     </tbody>
@@ -381,7 +402,7 @@
                     <thead>
                         <tr>
                             <th colspan="4">
-                                Healthcare Administration               
+                                Healthcare Administration
                             </th>
                         </tr>
                         <tr>
@@ -395,20 +416,23 @@
                         <tr>
                             <td><i aria-hidden="true"> </i>RN to BSN Program</td>
                             <td>Financial Foundation</td>
-                            <td>Mrs Whoever</td>
+                            <td>Vincent Demarco</td>
                             <td>Remote/In Person Options</td>
                         </tr>
 
                         <tr>
                             <td><i aria-hidden="true"> </i>Financial Foundation</td>
                             <td>Leadership</td>
-                            <td>Mr whoever</td>
+                            <td>Melissa White</td>
                             <td>Remote/In Person Options</td>
                         </tr>
                         <tr>
                             <td><i aria-hidden="true"> </i>Managerial Fundamentals</td>
                             <td>Legal Malpractice</td>
-                            <td>Mrs whoever</td>
+                            <td>
+                                Heather R.
+                                Bollinger
+                            </td>
                             <td>Remote/In Person Options</td>
                         </tr>
 
@@ -424,24 +448,39 @@
                 </table>
             </div>
         </section>
-    </main>
-    <footer>
-        <section>
-            <ul>
-                <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
 
-            </ul>
-        </section>
-        All Rights Reserved 2021
-    </footer>
+        <footer>
+
+            All Rights Reserved 2021
+
+        </footer>
+
+
+    </main>
+
     <h2 id="footCenter">
         Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
     </h2>
     <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
     <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
     <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-    <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <script>
+        function toggleClass() {
+            let navList = document.getElementById('topnav');
+            navList.classList.toggle('expanded');
+
+            //Toggle Hamburger button/Close button
+            let btn = document.getElementById('menu-btn');
+
+            if (navList.classList.contains('expanded')) {
+                btn.innerHTML = "&times;"
+            }
+            else {
+                btn.innerHTML = "&#9776;";
+            }
+        }
+    </script>
 </body>
 </html>
 

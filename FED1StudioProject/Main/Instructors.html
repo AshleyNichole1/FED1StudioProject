@@ -10,6 +10,7 @@
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
     <script src="../js/toggle.js"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Instructors - Nursing AdLib</title>
 </head>
 <body>
@@ -26,14 +27,22 @@
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
         </div>
     </header>
+
+    <div>
+        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+    </div>
+
     <nav>
+        <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
+            <h1>&#9776;</h1>
+        </div>
         <ul>
             <li id="topnav">
                 <!--class="selected"-->
                 <a href="index.html">
                     Home
                 </a>
-            </li>            
+            </li>
             <li class="active">
                 <a href="team.html">
                     Team
@@ -49,9 +58,7 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
-            </li>
+
         </ul>
     </nav>
 
@@ -85,7 +92,7 @@
             </div>
         </aside>
         <section class="mainWrapper" id="leftColumn">
-            <h1 class="header">Instructors</h1>
+            <h1 id="mainHeader" class="header">Instructors</h1>
             <br />
             <article>
 
@@ -94,8 +101,14 @@
                          title="shortTitle" height="200" width="250" id="xray" />
 
                     <p class="textMargin">
-
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Melissa White<br />
+                        MS, RD, LD, CDCES<br />
+                        Undergraduate-Pitzer College BA in Human Biology & Spanish (studied abroad in both Ecuador and Costa Rica)<br />
+                        <br />
+                        <br />
+                        Professional Areas of Interest – I strongly believe in providing quality health care to all people without bias. I am passionate about preventive medicine, patient education, and patient-centered care. I have special interests in women's health, dermatology and chronic disease management. I enjoy caring for patients of all ages, developing trusting relationships with patients and their families, and partnering with patients to improve their overall well-being. I am also bilingual for those in need of a Spanish-speaking physician.
+                        <br />
+                        Personal Information – I grew up in Northern California and spent the summers with my father’s family in Greece. I moved to Kansas for Physician Assistant graduate school and stayed after I met my fiancé (an orthopedic P.A.). In our free time, we enjoy traveling, hiking and spending time with our friends and family (including our two French bulldogs, Beau and Pierre).
                     </p>
 
 
@@ -106,8 +119,13 @@
 
 
                     <p class="textMargin">
+                        Dr. Vincent Demarco
+                        <br />
+                        <br />
+                        Dr. DeMarco is board certified in Family Practice and has a special interest in NaPROtechnology and the Creighton Model of Fertility Care. He is also certified through the Department of Transportation to perform DOT physicals. Dr. DeMarco earned his Doctor of Osteopathic Medicine degree from the Kansas City University of Medicine and Biosciences in Kansas City, MO. and his residency at Our Lady of Bellefonte Hospital in Ashland, KY. He has trained as a Creighton Model (fertility) Medical Consultant at Pope Paul VI Institute in Omaha, Nebraska.<br />
+                        It is the responsibility of the teaching faculty to provide learning activities and support that will lead to the achievement of course and program objectives and to contribute to the overall educational environment of the college and community and to provide related services such as academic advising, committee participation, professional development, community development as well as other service support that is needed in the fulfillment of the North Central Texas College’s Mission.
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+
                     </p>
 
                 </section>
@@ -116,8 +134,20 @@
                          title="shortTitle" height="200" width="250" id="xray" />
 
                     <p class="textMargin">
+                        Heather R.
+                        Bollinger, DO
+                        <br />
+                        Undergraduate	Missouri State University
+                        Post-Graduate
+                        Missouri State University
+                        State Licensure	Licensed Professional Counselor
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Professional Areas of Interest – Anna has worked in a variety of settings including the military,  inpatient and outpatient treatment centers, domestic violence centers, crisis intervention and an adoption agency.  Additionally, she is a certified Meyers-Briggs Type Indicator Practitioner.  She works with individuals who have experienced trauma, struggle with communication and/or have mood, attachment or anxiety disorders.
+
+                        Anna uses a client-centered approach to counseling with an eclectic style that adapts to the unique needs of each client.  Anna's framework is based on the belief that everyone has value, purpose and something beautiful to offer.  Her goal is to navigate and help you discovery the peace, joy and happiness in the life you are meant to live.
+
+                        Personal Information – In her spare time,  Anna loves to spend time with her family, good friends, and long walks with her dog.
+
                     </p>
 
                 </section>
@@ -125,23 +155,38 @@
             </article>
 
         </section>
-        <footer>
-            <section>
-                <ul>
-                    <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                    <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
 
-                </ul>
-            </section>
+        <footer>
+
             All Rights Reserved 2021
+
         </footer>
-        <h2 id="footCenter">
-            Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
-        </h2>
-        <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
-        <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-        <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+
+
     </main>
+
+    <h2 id="footCenter">
+        Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
+    </h2>
+    <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
+    <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <script>
+        function toggleClass() {
+            let navList = document.getElementById('topnav');
+            navList.classList.toggle('expanded');
+
+            //Toggle Hamburger button/Close button
+            let btn = document.getElementById('menu-btn');
+
+            if (navList.classList.contains('expanded')) {
+                btn.innerHTML = "&times;"
+            }
+            else {
+                btn.innerHTML = "&#9776;";
+            }
+        }
+    </script>
 </body>
 </html>

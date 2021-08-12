@@ -10,6 +10,7 @@
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
     <script src="../js/toggle.js"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Administration - Nursing AdLib</title>
 </head>
 <body>
@@ -26,7 +27,15 @@
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
         </div>
     </header>
+
+    <div>
+        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+    </div>
+
     <nav>
+        <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
+            <h1>&#9776;</h1>
+        </div>
         <ul>
             <li id="topnav">
                 <!--class="selected"-->
@@ -35,12 +44,12 @@
                     Home
                 </a>
             </li>
-            
+
             <li class="active">
-                <a href="team.html">               
+                <a href="team.html">
                     Team
                 </a>
-               
+
             </li>
 
             <li>
@@ -54,9 +63,7 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
-            </li>
+
         </ul>
     </nav>
     <main>
@@ -88,7 +95,7 @@
         </aside>
 
         <section class="mainWrapper" id="leftColumn">
-            <h1 class="header">Administration</h1>
+            <h1 id="mainHeader" class="header">Administration</h1>
             <br />
             <article>
 
@@ -97,8 +104,17 @@
                          title="shortTitle" height="200" width="250" id="xray" />
 
                     <p class="textMargin">
+                        Melinda D. Granger, MD, MBA.<br />
+                        President<br />
+                        <br />
+                        <br />
+                        B.A., Pennsylvania State University<br />
+                        M.S., Pennsylvania State University<br />
+                        Ed.D., Columbia University<br />
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Dr. Granger is a former vice chair of Nursing AdLib board of directors. She brings the college strategic leadership and academic programming skills gained in top roles at  College of Pharmacy and Health Sciences and at Johnson & Wales University. Dr. Granger also is a past member of the New England Commission for Higher Education.
+                        <br>
+                        Melinda D. Granger is a Nurse Practitioner from Independence, Missouri. She received her Bachelor of Science in Nursing at Aurora University in 2013 and Master of Science in Nursing at Olivet Nazarene University in 2018. Melinda specializes in family medicine and sees patients of all ages. Hhe is also fluent in American Sign Language.
                     </p>
 
 
@@ -110,16 +126,32 @@
 
                     <p class="textMargin">
 
+                        Paul M.<br />
+                        Joslin, APRN, FNP-C
+                        <br />
+                        <br />
+                        Paul Joslin APRN, FNP-C is a nurse practitioner from Olathe, KS. She received a bachelor‘s of science in nursing from Saint Luke’s College of Nursing in 2009. She then obtained a master’s of science in nursing from University of Kansas Medical Center in 2014. She received her certification as a family nurse practitioner from the AANP in 2014, as well. She enjoys seeing patients of all ages throughout the lifespan.
                         Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+
+
                     </p>
 
                 </section>
+                <br />
                 <section>
                     <img src="../images/shipman-northcutt-sgZX15Da8YE-unsplash (1).jpg" alt="input text for visual impaired" title="shortTitle"
                          height="200" width="250" id="xray" />
 
                     <p class="textMargin">
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        James H. McDonald, MD
+                        <br />
+                        <br />
+                        Dr. McDonald is an assistant professor and mission coordinator at Baylor University Louise Herrington School of Nursing. He has led faculty and student missions domestically and to China, Ethiopia, Honduras, India, Sierra Leone, Malawi, Uganda, Vietnam and Zambia.
+                        Steven F. Charochak, D.O.
+                        <br />
+                        Family Physician
+                        James H. McDonald, MD, is a Board Certified family physician who has been practicing medicine for more than 25 years. A certified physician by the states of Kansas and Missouri, Dr. Charochak completed medical school at the University of Osteopathic Medicine and Health Sciences. He then served his internship at Botsford General Hospital and his residency at the University of Missouri. Dr. McDonald has been with KCFMC since 2002.
+
                     </p>
 
 
@@ -129,23 +161,38 @@
             </article>
 
         </section>
-        <footer>
-            <section>
-                <ul>
-                    <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                    <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
 
-                </ul>
-            </section>
+        <footer>
+
             All Rights Reserved 2021
+
         </footer>
-        <h2 id="footCenter">
-            Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
-        </h2>
-        <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
-        <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-        <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+
+
     </main>
+
+    <h2 id="footCenter">
+        Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
+    </h2>
+    <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
+    <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <script>
+        function toggleClass() {
+            let navList = document.getElementById('topnav');
+            navList.classList.toggle('expanded');
+
+            //Toggle Hamburger button/Close button
+            let btn = document.getElementById('menu-btn');
+
+            if (navList.classList.contains('expanded')) {
+                btn.innerHTML = "&times;"
+            }
+            else {
+                btn.innerHTML = "&#9776;";
+            }
+        }
+    </script>
 </body>
 </html>

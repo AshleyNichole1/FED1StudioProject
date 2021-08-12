@@ -3,11 +3,12 @@
 <head>
     <link href="../stylesheet/Main.css" rel="stylesheet" id="main" />
 
-    
+
     <meta name="description" content="This is a test page" />
     <meta name="keywords" content="CSS,HTML" />
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <script src="../js/toggle.js"></script>
 
     <title>Contact Information</title>
@@ -27,6 +28,11 @@
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
         </div>
     </header>
+
+    <div>
+        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+    </div>
+
     <nav>
         <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
             <h1>&#9776;</h1>
@@ -56,19 +62,18 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
-            </li>
+            
         </ul>
     </nav>
 
-    <main>
+    <main >
+
 
         <section id="contactCenter">
-            <h1>
+
+            <h1 id="mainHeader">
                 Contact Information
             </h1>
-
             <section>
                 <ul class="contactList">
                     <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
@@ -102,23 +107,38 @@
             </ul>
         </aside>-->
 
-    </main>
-    <footer>
-        <section>
-            <ul>
-                <li>Phone:<a href="tel:816-857-5309">(816) 857-5309</a></li>
-                <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
 
-            </ul>
-        </section>
-        All Rights Reserved 2021
-    </footer>
+        <footer>
+
+            All Rights Reserved 2021
+
+        </footer>
+
+
+    </main>
+
     <h2 id="footCenter">
         Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
     </h2>
     <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
     <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
     <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-    <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <script>
+        function toggleClass() {
+            let navList = document.getElementById('topnav');
+            navList.classList.toggle('expanded');
+
+            //Toggle Hamburger button/Close button
+            let btn = document.getElementById('menu-btn');
+
+            if (navList.classList.contains('expanded')) {
+                btn.innerHTML = "&times;"
+            }
+            else {
+                btn.innerHTML = "&#9776;";
+            }
+        }
+    </script>
 </body>
 </html>

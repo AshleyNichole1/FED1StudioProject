@@ -28,13 +28,16 @@
             <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
             <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+
         </div>
     </header>
 
-
+    <div >
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()" >Theme</button>
+    </div>
 
     <nav>
-        <div class="hamIcon" onclick="toggleTheme()" id="menu-btn">
+        <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
             <h1>&#9776;</h1>
         </div>
 
@@ -52,7 +55,7 @@
             </li>
 
             <li>
-                <a href="../classes.html">
+                <a href="classes.html">
                     Course Schedule
                 </a>
             </li>
@@ -61,10 +64,6 @@
                 <a href="contact.html">
                     Contact
                 </a>
-            </li>
-
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
             </li>
 
         </ul>
@@ -76,7 +75,7 @@
             <article>
                 <section>
 
-                    <img src="../images/national-cancer-institute-Eln_eAlSnKg-unsplash (1).jpg" alt="Description for hearing impared" title="hover title" id="xray" width="250" height="200" />
+                    <img src="../images/national-cancer-institute-Eln_eAlSnKg-unsplash (1).jpg" alt="Description for hearing impared" title="hover title" id="frontPage" width="250" height="200" />
                     <h1 id="whyUs">
                         Our story
                     </h1>
@@ -96,15 +95,14 @@
 
 
                 <section>
-                    <img src="../images/martin-splitt-8ByBvAXwFEc-unsplash (1).jpg" alt="Description for hearing impared" title="hover title" id="xray" />
+                    <img src="../images/martin-splitt-8ByBvAXwFEc-unsplash (1).jpg" alt="Description for hearing impared" title="hover title" id="frontPage" />
 
                     <!--<h3 id="indexRight">We dedicate oursselves to your success</h3>-->
 
                     <p class="indexRight">
                         As the longest provider of nurses in Liberty, Nursing AdLib has been educating healthcare professionals for nearly 130 years.<br />
                         The college's roots date back to 1892 with the opening of the Carney Hospital Training School for Nurses in Liberty, Kansas. The school was sponsored by the Daughters of Charity of Saint Vincent DePaul. In addition to Carney Hospital Training School for Nurses, the Daughters of Charity also operated the St. John Hospital School of Nursing - established in Topeka, Kansas in 1892 and the St. Margaret Hospital School of Nursing established in 1903 in Liberty.
-                        <br />
-                        In 1951, the Daughters of Charity merged the three schools into a single institution. This institution became known as the AdLib School of Nursing - the first independent, regional, three-year diploma program in New England. Classes were held on the campus of Carney Hospital in Liberty until 1954 when AdLib School of Nursing moved to the site of the new Carney Hospital in .
+
                     </p>
                 </section>
                 <section>
@@ -114,10 +112,11 @@
                     </h3>-->
 
                     <p class="indexLeft">
+
+                        <br />
                         While some of our programs are campus-based, like our associate degrees in nursing and radiation therapy, the rest of our programs are offered in an online format for maximum flexibility.
                         <br />
                         Our dedicated faculty, small class sizes, and innovative curriculum provide students from all backgrounds the opportunity to learn and grow in the healthcare industry.
-                        <br />
                         Whether you choose a program that runs on our Springfield campus or online, you'll find our faculty and staff in each department available and accessible on campus, and remotely via phone or virtual meetings.
                     </p>
 
@@ -127,28 +126,24 @@
 
         </section>
         <br>
+
+
+        <footer>
+
+            All Rights Reserved 2021
+
+        </footer>
+
+
     </main>
 
-    <footer>
-        <section>
-            <ul>
-                <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
-
-            </ul>
-        </section>
-        All Rights Reserved 2021
-
-    </footer>
     <h2 id="footCenter">
         Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
     </h2>
     <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
     <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
     <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-    <button style= "background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
-
-
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
     <script>
         function toggleClass() {
             let navList = document.getElementById('topnav');
@@ -165,6 +160,7 @@
             }
         }
     </script>
+
 
 </body>
 </html>

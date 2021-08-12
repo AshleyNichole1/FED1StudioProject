@@ -80,7 +80,6 @@
     <Content Include="Main\index.html" />
     <Content Include="Main\team.html" />
     <Content Include="stylesheet\Backup.css" />
-    <None Include="stylesheet\wrongclass" />
     <Content Include="favicon.ico" />
     <Content Include="images\ani-kolleshi-7jjnJ-QA9fY-unsplash %281%29.jpg" />
     <Content Include="images\baim-hanif-pYWuOMhtc6k-unsplash.jpg" />
@@ -111,8 +110,6 @@
     <Content Include="scripts\Extras.html" />
     <Content Include="Main\Instructors.html" />
     <Content Include="Main\Sales.html" />
-    <None Include="stylesheet\wrongteam" />
-    <None Include="stylesheet\wrongcontact" />
     <None Include="scripts\wrongcss" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -121,7 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="stylesheet\wrongindex" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

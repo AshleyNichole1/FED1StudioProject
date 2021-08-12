@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <!--<link href="../stylesheet/Main.css" rel="stylesheet" id="main" />-->
     <link href="../stylesheet/Main.css" rel="stylesheet" id="main" />
 
     <meta name="description" content="This is a test page" />
     <meta name="keywords" content="CSS,HTML" />
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <script src="../js/toggle.js"></script>
 
     <title>Student Support-NursingAdLib</title>
@@ -23,8 +25,13 @@
             <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
             <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
+
         </div>
     </header>
+
+    <div>
+        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+    </div>
 
     <nav>
         <div class="hamIcon" onclick="toggleClass()" id="menu-btn">
@@ -55,9 +62,7 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
-            </li>
+
         </ul>
     </nav>
 
@@ -92,7 +97,7 @@
 
 
         <section class="mainWrapper" id="leftColumn">
-            <h1 class="header">Leadership</h1>
+            <h1 id="mainHeader" class="header">Leadership</h1>
             <br />
             <article>
 
@@ -102,7 +107,11 @@
                     <p class="textMargin">
 
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Denise Bourassa, DNP, RNC, CNL, CNE<br />
+                        Assistant Clinical Professor,<br />
+                        Director, Nursing Leader and Nursing Educator tracks<br />
+                        <br />
+                        Denise Bourassa, DNP, RNC-ob, CNL, CNE is an Assistant Professor and Director of the MS Nurse Leader and Nurse Educator Tracks at the UConn School of Nursing. Dr. Bourassa is an experienced, nationally certified Clinical Nurse Leader and specializes in healthcare quality improvement, implementing and sustaining evidence-based practice at the bedside, and leading healthcare interdisciplinary teams during quality improvement projects. Dr. Bourassa is a certified nurse educator with ten years’ experience in nursing education at both the graduate and pre-licensure level.
                     </p>
 
                 </section>
@@ -112,8 +121,14 @@
 
                     <p class="textMargin">
 
-
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Eliska Webster<br />
+                        PA-C<br />
+                        <br />
+                        Eliska Webster, PA, joined Family Medical Care Associates in June, 2018. She brings a wealth of knowledge and experience in both Family Practice and Internal Medicine and specializes in Dermatology. Eliska completed her Bachelors of Arts in Biology from Southwestern College, Winfield Kansas in May of 1996. In 1999, she received a Bachelor’s of Science, Physician Assistant from Wichita State University, Wichita, KS.
+                        Denise Bourassa, DNP, RNC, CNL, CNE<br />
+                        Assistant Clinical Professor,
+                        Director, Nursing Leader and Nursing Educator tracks<br />
+                        <br />
                     </p>
 
                 </section>
@@ -125,7 +140,10 @@
 
                     <p class="textMargin">
 
-                        Praesent ornare orci in odio lobortis faucibus. Phasellus eget sem sed dui varius euismod id eget libero. Integer eleifend semper bibendum. Mauris scelerisque nulla id sollicitudin suscipit. Curabitur non vestibulum purus. Nulla facilisi. Vestibulum malesuada ipsum neque, ac rhoncus purus dictum a. Ut eu massa at felis mollis lacinia. Sed ut dolor neque. Proin ultrices, mauris a elementum ultricies, lacus quam tempor ex, id facilisis nibh tortor tempus neque. Cras eu aliquet ligula, a porttitor erat. Suspendisse mattis leo vel tellus aliquam, nec vestibulum sem ornare
+                        Thomas J. Van Hoof, MD, EdD, FACMQ<br />
+                        Associate Professor<br />
+                        <br />
+                        Dr. Tom Van Hoof is an Associate Professor in the University of Connecticut’s Schools of Nursing and Medicine, serving on faculty at UConn since 1996. He is also the Director of Teaching and Learning in the School of Nursing, Faculty Affiliate in UConn’s Center for Excellence in Teaching and Learning, and Director of UConn’s graduate certificate in Health Professions Education. Tom is certified in Medical Quality through the American Board of Medical Quality and a Fellow of the American College of Medical Quality. He received his medical and psychiatric training at the UConn School of Medicine, and he completed a fellowship in medical ethics at Harvard Medical School. Additionally, Tom earned a master's degree in education from UConn and a doctoral degree in educational administration from Teachers College Columbia University. His research and teaching efforts relate to the use of educational interventions to change clinician behavior and to improve patient outcomes. More recently, Tom has also become involved in the science of learning, incorporating its evidence into his scholarship, teaching, and leadership responsibilities.
                     </p>
 
 
@@ -135,24 +153,38 @@
 
         </section>
 
+
+        <footer>
+
+            All Rights Reserved 2021
+
+        </footer>
+
+
     </main>
 
-    <footer>
-        <section>
-            <ul>
-                <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
-
-            </ul>
-        </section>
-        All Rights Reserved 2021
-    </footer>
     <h2 id="footCenter">
         Copyright &copy; 2021 Ashley N. Smith. Centriq Training. All Rights Reserved
     </h2>
     <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
     <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
     <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-    <button style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <script>
+        function toggleClass() {
+            let navList = document.getElementById('topnav');
+            navList.classList.toggle('expanded');
+
+            //Toggle Hamburger button/Close button
+            let btn = document.getElementById('menu-btn');
+
+            if (navList.classList.contains('expanded')) {
+                btn.innerHTML = "&times;"
+            }
+            else {
+                btn.innerHTML = "&#9776;";
+            }
+        }
+    </script>
 </body>
 </html>
