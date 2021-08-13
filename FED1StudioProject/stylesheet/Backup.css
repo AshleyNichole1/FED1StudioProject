@@ -4,7 +4,7 @@
 main {
     background-color: rgba(0,0,0,.9);
     max-width: 980px;
-    margin: 0px 76px 0px 151px
+    margin: auto;
 }
 
 footer {
@@ -12,9 +12,7 @@ footer {
     color: #D9B391;
 }
 
-#contactmain {
-    margin: 0px 76px 0px 151px;
-}
+
 
 h1 {
     color: aliceblue;
@@ -69,7 +67,7 @@ a {
 nav ul {
     background-color: #392A40;
     max-width: 940px;
-    margin: -2px 50px 15px 152px;
+    margin: auto;
 }
 
 nav li:hover {
@@ -95,11 +93,11 @@ nav ul li a {
     background-image: url('../images/Nursing Icon.png');
     background-repeat: no-repeat;
     background-size: 90px;
-    background-position: 3% center;
+    background-position: 5% center;
 }
 
 header h1, header p {
-    margin: 7px 0 7px 150px;
+    margin: 7px 0 7px 191px;
 }
 
 header {
@@ -197,7 +195,7 @@ aside h2 {
 }
 
 aside h2 {
-    margin-top: 0;
+    margin: 1px 0px 0px 6px
 }
 
 
@@ -307,24 +305,24 @@ td.tdContact {
 #fbRight {
     float: right;
     color: rgba(0,0,0,.9);
-    margin: -47px 129px 15px 10px;
+    margin: -47px 365px 15px 10px;
 }
 
 #twtrRight {
     float: right;
     color: rgba(0,0,0,.9);
-    margin: -47px 100px 15px 10px;
+    margin: -47px 315px 15px 10px;
 }
 
 #instaRight {
     float: right;
     color: rgba(0,0,0,.9);
-    margin: -47px 61px 15px 10px;
+    margin: -47px 265px 15px 10px;
 }
 
 #theme {
     float: right;
-    margin: -2px 50px 15px 10px;
+    margin: -2px 265px 15px 10px;
 }
 
 #contactCenter {
