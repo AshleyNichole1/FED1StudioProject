@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 main {
-    background-color: rgba(0,0,0,.9);
+    /*background-color: rgba(0,0,0,.9);*/
     max-width: 980px;
     margin: auto;
 }
 
 footer {
     /*background-color: #392A40;*/
-    color: #D9B391;
+    color: #000000;
 }
 
 
 
 h1 {
-    color: aliceblue;
+    color: #392a40;
     font-size: 2em;
     margin: 1px;
 }
@@ -65,7 +65,7 @@ a {
     }
 
 nav ul {
-    background-color: #392A40;
+    background-color: #ab9db1;
     max-width: 940px;
     margin: auto;
 }
@@ -232,7 +232,7 @@ aside h2 {
 #whyUs {
     margin-left: 20%;
     text-decoration: underline;
-    color: #D9B391;
+    color: #000000;
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -341,7 +341,7 @@ p.cprMargin {
 
 p {
     /*font-weight: bold;*/
-    color: aliceblue;
+    color: #d1b7d8;
     font-size: larger;
 }
 
@@ -402,7 +402,7 @@ h3 {
 #mainHeader {
     margin-left: auto;
     text-decoration: underline;
-    color: #D9B391;
+    color: #000000;
     font-family: 'Abril Fatface', cursive;
 }
 
