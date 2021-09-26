@@ -7,7 +7,7 @@
     <meta name="description" content="This is a test page" />
     <meta name="keywords" content="CSS,HTML" />
     <meta charset="utf-8" />
-    <script src="https://kit.fontawesome.com/7f97b26c8e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f94d5f4f0.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <script src="../js/toggle.js"></script>
 
@@ -30,7 +30,7 @@
     </header>
 
     <div>
-        <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
+        <button id="theme" style="background-color:aliceblue; cursor:pointer; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman';" onclick="toggleTheme()">Theme</button>
     </div>
 
     <nav>
@@ -62,32 +62,36 @@
                     Contact
                 </a>
             </li>
-            
+
         </ul>
     </nav>
 
-    <main >
+    <main>
 
+        <section class="mainWrapper">
+            <article>
+                <section>
 
-        <section id="contactCenter">
+                    <h1 id="mainHeader" class="header">
+                        Contact Information
+                    </h1>
+                    <section id="contactCenter">
+                        <ul class="contactList">
+                            <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
+                            <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
+                            <li>Twitter: <a href="@weteachstuff">@weteachstuff</a></li>
+                            <li>Facebook: <a href="www.facebook.com/learnwithus">www.facebook.com/learnwithus</a></li>
+                            <li>Linkedin: <a href="www.linkedin.com/learnwithus">www.linkedin.com/learnwithus</a></li>
+                            <li>Adress:<br /> 1740 /w 92nd Stree, Kansas City, MO 64114</li>
+                        </ul>
 
-            <h1 id="mainHeader">
-                Contact Information
-            </h1>
-            <section>
-                <ul class="contactList">
-                    <li>Phone: <a href="tel:816-857-5309">(816) 857-5309</a></li>
-                    <li>Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a></li>
-                    <li>Twitter: <a href="@weteachstuff">@weteachstuff</a></li>
-                    <li>Facebook: <a href="www.facebook.com/learnwithus">www.facebook.com/learnwithus</a></li>
-                    <li>Linkedin: <a href="www.linkedin.com/learnwithus">www.linkedin.com/learnwithus</a></li>
-                    <li>Adress:<br /> 1740 /w 92nd Stree, Kansas City, MO 64114</li>
-                </ul>
-            </section>
-            <br />
-            <p>
-                Please check Locations and Directions for more detailed information.
-            </p>
+                        <br />
+                        <p>
+                            Please check Locations and Directions for more detailed information.
+                        </p>
+                    </section>
+                </section>
+            </article>
         </section>
         <!--<aside>
             <h2 id="asideHeader">List locations here</h2>
@@ -106,13 +110,11 @@
                 </li>
             </ul>
         </aside>-->
-
-
-        <footer>
+        <!--<footer>
 
             All Rights Reserved 2021
 
-        </footer>
+        </footer>-->
 
 
     </main>
@@ -123,7 +125,7 @@
     <a href="https://www.facebook.com/" target="_blank"> <i id="fbRight" class="fab fa-facebook"></i></a>
     <a href="https://mobile.twitter.com/login" target="_blank"> <i id="twtrRight" class="fab fa-twitter-square"></i></a>
     <a href="https://www.instagram.com/" target="_blank"><i id="instaRight" class="fab fa-instagram-square"></i> </a>
-    <button id="theme" style="background-color:aliceblue; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
+    <button id="theme" style="background-color:aliceblue; cursor:pointer; color:#392A40 ;width:60px;height:30px; border-radius:20%; font-weight:bolder; font-family:'Times New Roman'; float:right;" onclick="toggleTheme()">Theme</button>
     <script>
         function toggleClass() {
             let navList = document.getElementById('topnav');

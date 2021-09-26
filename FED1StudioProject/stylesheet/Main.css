@@ -328,6 +328,7 @@ td.tdContact {
 #theme {
     float: right;
     margin: -2px 265px 15px 10px;
+ 
 }
 
 #contactCenter {
@@ -338,6 +339,7 @@ td.tdContact {
 
 ul.contactList {
     list-style: none;
+    text-align: center;
 }
 
 p.cprMargin {
@@ -395,7 +397,7 @@ h3 {
             }
 
     nav ul li:nth-child(2n+1) {
-        background-color: transparent
+        background-color: transparent;
     } 
 
 }
